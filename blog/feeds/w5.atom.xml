@@ -9,22 +9,4 @@
 &lt;p&gt;3.上一部教學影片字幕&lt;/p&gt;
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/WpBjO-Pjr5w?si=8z-aQCzjtIiF1gy3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;
 
-&lt;p&gt;&lt;a href="&lt;a href="https://1drv.ms/t/c/0c784ce0af12d934/EQ7fGtx45HxBiJpdMZMJnkABtKQ5YcusSXGq3WgBcceKJg?e=K5pVot"&gt;http://229.cycu.org/latex_images_github.7z&lt;/a&gt;"&gt;逐字稿&lt;/a&gt;&lt;/p&gt;</content><category term="w5"></category><category term="網誌編寫"></category></entry><entry><title>W4課程</title><link href="./41123130%20W6.html" rel="alternate"></link><published>2024-03-08T11:00:00+08:00</published><updated>2024-04-26T07:06:33+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-08:./41123130 W6.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
-</summary><content type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
-
-
-&lt;h1&gt;41123130-W6&lt;/h1&gt;
-&lt;p&gt;UpDate 了小組中自己的子模組 且學習如何用branch 協同更新&lt;/p&gt;
-&lt;p&gt;方法如下:
-1.在 github main create new branch 和 branch name 41123130 //創建個人分支
-2.create a codspeace on 41123130 //
-3.open codspeace
-4.chmod u+x init_replit 並./init_replit
-5.git submodule update --init //將 git submodule init 和 git submodule update 合併成一步
-6.cd 41123130 //進入41123130的子模組
-7.git pull origin main //從遠端更新程式碼 並將 main 合併至分支41123130
-8.cd ..//退到大廳
-9.git add .(加入更改) git commit -m " "(命名這次更改) git push(推到倉儲)
-10.git merge //合併branch 41123130 至 main
-11.在github確定沒衝突的合併後送出請求,並合併branch
-12.合併後的branch 只要沒有與main有衝突的合併應該可以一直用&lt;/p&gt;</content><category term="w5"></category><category term="網誌編寫"></category></entry></feed>
+&lt;p&gt;&lt;a href="&lt;a href="https://1drv.ms/t/c/0c784ce0af12d934/EQ7fGtx45HxBiJpdMZMJnkABtKQ5YcusSXGq3WgBcceKJg?e=K5pVot"&gt;http://229.cycu.org/latex_images_github.7z&lt;/a&gt;"&gt;逐字稿&lt;/a&gt;&lt;/p&gt;</content><category term="w5"></category><category term="網誌編寫"></category></entry></feed>
