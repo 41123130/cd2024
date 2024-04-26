@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>協同產品設計實習 - w5</title><link href="./" rel="alternate"></link><link href="./feeds/w5.atom.xml" rel="self"></link><id>./</id><updated>2024-04-19T06:15:55+08:00</updated><entry><title>W4課程</title><link href="./41123130%20W5.html" rel="alternate"></link><published>2024-03-08T11:00:00+08:00</published><updated>2024-04-19T05:41:45+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-08:./41123130 W5.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>協同產品設計實習 - w5</title><link href="./" rel="alternate"></link><link href="./feeds/w5.atom.xml" rel="self"></link><id>./</id><updated>2024-04-26T07:06:41+08:00</updated><entry><title>W4課程</title><link href="./41123130%20W5.html" rel="alternate"></link><published>2024-03-08T11:00:00+08:00</published><updated>2024-04-26T07:06:41+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-08:./41123130 W5.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
 
 
-&lt;h1&gt;W5&lt;/h1&gt;
+&lt;h1&gt;41123130-W5&lt;/h1&gt;
 &lt;p&gt;1.將自己的倉儲加入小組成為子模組&lt;/p&gt;
 &lt;p&gt;2.以 LaTeX 格式分工完成文章的英文與中文翻譯並列資料&lt;/p&gt;
 &lt;p&gt;3.上一部教學影片字幕&lt;/p&gt;
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/WpBjO-Pjr5w?si=8z-aQCzjtIiF1gy3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;
 
-&lt;p&gt;&lt;a href="&lt;a href="https://1drv.ms/t/c/0c784ce0af12d934/EQ7fGtx45HxBiJpdMZMJnkABtKQ5YcusSXGq3WgBcceKJg?e=K5pVot"&gt;http://229.cycu.org/latex_images_github.7z&lt;/a&gt;"&gt;逐字稿&lt;/a&gt;&lt;/p&gt;</content><category term="w5"></category><category term="網誌編寫"></category></entry><entry><title>W4課程</title><link href="./41123130%20W6.html" rel="alternate"></link><published>2024-03-08T11:00:00+08:00</published><updated>2024-04-19T06:15:55+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-08:./41123130 W6.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
+&lt;p&gt;&lt;a href="&lt;a href="https://1drv.ms/t/c/0c784ce0af12d934/EQ7fGtx45HxBiJpdMZMJnkABtKQ5YcusSXGq3WgBcceKJg?e=K5pVot"&gt;http://229.cycu.org/latex_images_github.7z&lt;/a&gt;"&gt;逐字稿&lt;/a&gt;&lt;/p&gt;</content><category term="w5"></category><category term="網誌編寫"></category></entry><entry><title>W4課程</title><link href="./41123130%20W6.html" rel="alternate"></link><published>2024-03-08T11:00:00+08:00</published><updated>2024-04-26T07:06:33+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-08:./41123130 W6.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
 
 
-&lt;h1&gt;W6&lt;/h1&gt;
+&lt;h1&gt;41123130-W6&lt;/h1&gt;
 &lt;p&gt;UpDate 了小組中自己的子模組 且學習如何用branch 協同更新&lt;/p&gt;
 &lt;p&gt;方法如下:
 1.在 github main create new branch 和 branch name 41123130 //創建個人分支
