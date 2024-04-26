@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>協同產品設計實習 - w2</title><link href="./" rel="alternate"></link><link href="./feeds/w2.atom.xml" rel="self"></link><id>./</id><updated>2024-04-26T07:07:04+08:00</updated><entry><title>W2課程</title><link href="./41123130%20W2.html" rel="alternate"></link><published>2024-02-18T11:00:00+08:00</published><updated>2024-04-26T07:07:04+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-02-18:./41123130 W2.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>協同產品設計實習 - w2</title><link href="./" rel="alternate"></link><link href="./feeds/w2.atom.xml" rel="self"></link><id>./</id><updated>2024-04-26T14:42:18+08:00</updated><entry><title>W2課程</title><link href="./41123130%20W2.html" rel="alternate"></link><published>2024-02-18T11:00:00+08:00</published><updated>2024-04-26T14:42:18+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-02-18:./41123130 W2.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
 
 
 &lt;h1&gt;41123130-W2&lt;/h1&gt;
-&lt;p&gt;1.創建自己的倉儲(cp2024) &lt;/p&gt;
+&lt;p&gt;1.創建自己的倉儲(cd2024) &lt;/p&gt;
 &lt;p&gt;2.創建自己的動靜態並修改內容&lt;/p&gt;
-&lt;p&gt;3.為了上傳 影片 檔案 照片等 學習了blog寫法&lt;/p&gt;</content><category term="w2"></category><category term="網誌編寫"></category></entry></feed>
+&lt;p&gt;3.為了上傳 影片 檔案 照片等 學習了blog寫法
+(git add .&lt;em&gt; git commit -m ""&lt;/em&gt; git push)&lt;/p&gt;</content><category term="w2"></category><category term="網誌編寫"></category></entry></feed>
