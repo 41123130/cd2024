@@ -3,8 +3,119 @@
 <p>網頁: <a href="https://41123130.github.io/cd2024/content/index.html">靜態網頁</a></p>
 <p>網誌: <a href="https://41123130.github.io/cd2024/blog/">https://41123130.github.io/cd2024/blog/</a></p>
 <p>簡報: <a href="https://41123130.github.io/cd2024/reveal/" title="https://41123130.github.io/cd2024/reveal/">https://<span>41123130.github.io/cd2024</span>/reveal/</a></p>
+<p>小組: <a href="https://github.com/mdecd2024/2a-midag2" title="https://github.com/mdecd2024/2a-midag2">https://github.com/mdecd2024/2a-midag2</a></p>
 <p></p>
-<p></p>
+<h1>每週學習進度</h1>
+<p>Blog進度同步靜態內容整理!</p>
+<h2>W1</h2>
+<p dir="auto">1.建立個人倉儲<span> </span><a href="https://github.com/41123130/cd2024">https://github.com/41123130/cd2024</a></p>
+<p dir="auto">2.下載可攜套件 下載可攜程式環境: portable_2024.7z </p>
+<p dir="auto">3.下載 miktex-portable.7z<span> </span></p>
+<h2>W2</h2>
+<p dir="auto">1.創建自己的倉儲(cd2024)</p>
+<p dir="auto">2.創建自己的動靜態並修改內容</p>
+<p dir="auto">3.為了上傳 影片 檔案 照片等 學習了blog寫法 (git add ._ git commit -m ""_ git push)</p>
+<h2>W3</h2>
+<p dir="auto">1.建立小組群組倉儲(<a href="https://github.com/mdecd2024/2a-midag2">https://github.com/mdecd2024/2a-midag2</a>)</p>
+<p dir="auto">2.建立Putty權限(ppk)</p>
+<h2>W4</h2>
+<p dir="auto">1.cd2024_2a_w2_5 如何利用近端可攜環境與外部 IPv4 開啟動態網站的字幕</p>
+<p dir="auto">2.為教學影片上其影片逐字稿</p>
+<h2>W5</h2>
+<p dir="auto">1.將自己的倉儲加入小組成為子模組</p>
+<p dir="auto">2.以 LaTeX 格式分工完成文章的英文與中文翻譯並列資料</p>
+<p dir="auto">3.上一部教學影片字幕(HomeWork-1)</p>
+<h2>W6</h2>
+<p>UpDate 了小組中自己的子模組 且學習如何用branch 協同更新</p>
+<p>方法如下:<br/>1.在 github main create new branch 和 branch name 41123130 //創建個人分支<br/>2.create a codspeace on 41123130 //<br/>3.open codspeace<br/>4.chmod u+x init_replit 並./init_replit<br/>5.git submodule update --init //將 git submodule init 和 git submodule update 合併成一步<br/>6.cd 41123130 //進入41123130的子模組<br/>7.git pull origin main //從遠端更新程式碼 並將 main 合併至分支41123130<br/>8.cd ..//退到大廳<br/>9.git add .(加入更改) git commit -m " "(命名這次更改) git push(推到倉儲)<br/>10.git merge //合併branch 41123130 至 main<br/>11.在github確定沒衝突的合併後送出請求,並合併branch<br/>12.合併後的branch 只要沒有與main有衝突的合併應該可以一直用</p>
+<h2>W7</h2>
+<p>清明連假休息一週!</p>
+<h2>W8</h2>
+<p>運用OBS嘗試加入部分教學成果總結(未成功)</p>
+<h2>W9</h2>
+<p>1. 重新整頓之前Blog之問題<br/>2.整合群組子模組</p>
+<h2>W10</h2>
+<h4>任務一</h4>
+<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false">from browser import window, ajax, document, html
+ 
+def fetch_csv_data():
+  # CSV 檔案網址
+  url = "https://mdecd2024.github.io/2astud-2asite/downloads/2a.txt"
+   
+  def on_complete(req):
+    if req.status == 200 or req.status == 0:
+      # 讀取 CSV 檔案內容
+      content = req.text
+   
+      # 依照換行符號拆分資料
+      lines = content.split('\n')
+   
+      # 建立空列表儲存資料
+      data = []
+   
+      # 遍歷每一行資料
+      for line in lines:
+        # 忽略空白行
+        if line.strip() == "":
+          continue
+   
+        # 依照逗號拆分資料
+        items = line.split(',')
+   
+        # 將拆分後的資料加入列表
+        data.append(items)
+       
+      # 必須去除 data 的第一列標題資料, 只取序號為 1 之後的資料
+      data = data[1:]
+   
+      # 取得 html 可以插入的標註位置
+      brython_div = document["brython_div1"]
+      course_title = "cd2024"
+ 
+      # 逐一處理學員資料
+      index = 0
+      for items in data:
+        index += 1
+        student_id, github_username, group = items
+         
+        if github_username == "":
+          github_username = "000"
+         
+        # 建立網站和倉儲連結，使用正確的模板
+        site_url = f"https://{github_username}.github.io/{course_title}"
+        repo_url = f"https://github.com/{github_username}/{course_title}"
+        group_site_url = f"https://mdecd2024.github.io/2a-midag{group}"
+        group_repo_url = f"https://github.com/mdecd2024/2a-midag{group}"
+ 
+        # 添加學號, 網站, 倉儲連結和序號到 brython_div
+        brython_div &lt;= str(index) + ". " + html.A(student_id, href=site_url)
+        brython_div &lt;= " ("
+        brython_div &lt;= html.A("repo", href=repo_url)
+        brython_div &lt;= ") | " 
+        brython_div &lt;= html.A("Group Site", href=group_site_url)
+        brython_div &lt;= " | "
+        brython_div &lt;= html.A("Group Repo", href=group_repo_url)
+        brython_div &lt;= html.BR()
+ 
+    else:
+      print("Error:", req.text)
+   
+  # 發送 AJAX 請求
+  req = ajax.ajax()
+  req.bind('complete', on_complete)
+  req.open('GET', url, True)
+  req.set_header('content-type', 'application/x-www-form-urlencoded')
+  req.send()
+   
+# 呼叫函式讀取 CSV 資料
+fetch_csv_data()</pre>
+<h1>HomeWork</h1>
+<p>派發作業(盡力完成,爭取通過!)</p>
+<h2>影片字幕整理</h2>
+<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" data-mce-fragment="1" frameborder="0" height="315" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/WpBjO-Pjr5w?si=3oWwg60INdYSbuJP" title="YouTube video player" width="560"></iframe></p>
+<h2>論文中英對照</h2>
+<p>文章翻譯,txt檔(放置於Github-download)</p>
+<p><img alt="" height="317" src="/images/螢幕擷取畫面 2024-04-28 214723.png" width="277"/></p>
 <h1>cmsimde</h1>
 <p><span style="background-color: #ccffcc;">SMap</span> - SiteMap - 依照階次列出網站的所有頁面.</p>
 <p><span style="background-color: #ccffcc;">EditA</span> - Edit All page - 將所有頁面放入編輯模式中, 主要用來處理頁面搬遷, 刪除或決定衝突頁面內容版本.</p>
