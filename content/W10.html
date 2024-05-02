@@ -131,7 +131,7 @@ img.add_border {
                             <li><a href="./../blog/index.html">blog</a></li>
                         </ul>
                       </li>
-                     <li><a href='About.html'>About</a><li class='has-children'><a href='每週學習進度.html'>每週學習進度</a><ul class='dropdown'><li><a href='W1.html'>W1</a><li><a href='W2.html'>W2</a><li><a href='W3.html'>W3</a><li><a href='W4.html'>W4</a><li><a href='W5.html'>W5</a><li><a href='W6.html'>W6</a><li><a href='W7.html'>W7</a><li><a href='W8.html'>W8</a><li><a href='W9.html'>W9</a><li><a href='W10.html'>W10</a></li></ul><li class='has-children'><a href='HomeWork.html'>HomeWork</a><ul class='dropdown'><li><a href='影片字幕整理.html'>影片字幕整理</a><li><a href='論文中英對照.html'>論文中英對照</a></li></ul><li><a href='cmsimde.html'>cmsimde</a><li><a href='Replit.html'>Replit</a><li><a href='Brython.html'>Brython</a></li>
+                     <li><a href='About.html'>About</a><li class='has-children'><a href='每週學習進度.html'>每週學習進度</a><ul class='dropdown'><li><a href='W1.html'>W1</a><li><a href='W2.html'>W2</a><li><a href='W3.html'>W3</a><li><a href='W4.html'>W4</a><li><a href='W5.html'>W5</a><li><a href='W6.html'>W6</a><li><a href='W7.html'>W7</a><li><a href='W8.html'>W8</a><li><a href='W9.html'>W9</a><li class='has-children'><a href='W10.html'>W10</a><ul class='dropdown'><li><a href='任務一(列出修課成員的個人資料).html'>任務一(列出修課成員的個人資料)</a><li><a href='任務二.html'>任務二</a></li></li></ul></ul><li class='has-children'><a href='HomeWork.html'>HomeWork</a><ul class='dropdown'><li><a href='影片字幕整理.html'>影片字幕整理</a><li><a href='論文中英對照.html'>論文中英對照</a></li></ul><li><a href='cmsimde.html'>cmsimde</a><li><a href='Replit.html'>Replit</a><li><a href='Brython.html'>Brython</a></li>
                       </ul>
                 </nav>
               </div>
@@ -142,82 +142,8 @@ img.add_border {
           </div>
 
         </header>
-    <div id="tipue_search_content">W9 << <a href='W9.html'>Previous</a> <a href='HomeWork.html'>Next</a> >> HomeWork<br /><h1>W10</h1>
-<h4>任務一</h4>
-<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false">from browser import window, ajax, document, html
- 
-def fetch_csv_data():
-  # CSV 檔案網址
-  url = "https://mdecd2024.github.io/2astud-2asite/downloads/2a.txt"
-   
-  def on_complete(req):
-    if req.status == 200 or req.status == 0:
-      # 讀取 CSV 檔案內容
-      content = req.text
-   
-      # 依照換行符號拆分資料
-      lines = content.split('\n')
-   
-      # 建立空列表儲存資料
-      data = []
-   
-      # 遍歷每一行資料
-      for line in lines:
-        # 忽略空白行
-        if line.strip() == "":
-          continue
-   
-        # 依照逗號拆分資料
-        items = line.split(',')
-   
-        # 將拆分後的資料加入列表
-        data.append(items)
-       
-      # 必須去除 data 的第一列標題資料, 只取序號為 1 之後的資料
-      data = data[1:]
-   
-      # 取得 html 可以插入的標註位置
-      brython_div = document["brython_div1"]
-      course_title = "cd2024"
- 
-      # 逐一處理學員資料
-      index = 0
-      for items in data:
-        index += 1
-        student_id, github_username, group = items
-         
-        if github_username == "":
-          github_username = "000"
-         
-        # 建立網站和倉儲連結，使用正確的模板
-        site_url = f"https://{github_username}.github.io/{course_title}"
-        repo_url = f"https://github.com/{github_username}/{course_title}"
-        group_site_url = f"https://mdecd2024.github.io/2a-midag{group}"
-        group_repo_url = f"https://github.com/mdecd2024/2a-midag{group}"
- 
-        # 添加學號, 網站, 倉儲連結和序號到 brython_div
-        brython_div &lt;= str(index) + ". " + html.A(student_id, href=site_url)
-        brython_div &lt;= " ("
-        brython_div &lt;= html.A("repo", href=repo_url)
-        brython_div &lt;= ") | " 
-        brython_div &lt;= html.A("Group Site", href=group_site_url)
-        brython_div &lt;= " | "
-        brython_div &lt;= html.A("Group Repo", href=group_repo_url)
-        brython_div &lt;= html.BR()
- 
-    else:
-      print("Error:", req.text)
-   
-  # 發送 AJAX 請求
-  req = ajax.ajax()
-  req.bind('complete', on_complete)
-  req.open('GET', url, True)
-  req.set_header('content-type', 'application/x-www-form-urlencoded')
-  req.send()
-   
-# 呼叫函式讀取 CSV 資料
-fetch_csv_data()</pre>
-<br />W9 << <a href='W9.html'>Previous</a> <a href='HomeWork.html'>Next</a> >> HomeWork</div>
+    <div id="tipue_search_content">W9 << <a href='W9.html'>Previous</a> <a href='任務一(列出修課成員的個人資料).html'>Next</a> >> 任務一(列出修課成員的個人資料)<br /><h1>W10</h1>
+<br />W9 << <a href='W9.html'>Previous</a> <a href='任務一(列出修課成員的個人資料).html'>Next</a> >> 任務一(列出修課成員的個人資料)</div>
 
     <!-- footer -->
       <div class="container">
