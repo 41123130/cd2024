@@ -142,21 +142,22 @@ img.add_border {
           </div>
 
         </header>
-    <div id="tipue_search_content">Codespaces << <a href='Codespaces.html'>Previous</a> <a href='Brython.html'>Next</a> >> Brython<br /><h1>Replit</h1>
-<p><a href="https://replit.com">https://replit.com</a></p>
-<p>利用 init_replit 指令安裝所需 Python 模組<br/><br/>chmod u+x init_replit<br/><br/>./init_replit</p>
-<p dir="auto">On Replit:</p>
-<p dir="auto">.replit: python3 main.py</p>
-<p dir="auto">chmod u+x cms init_replit</p>
-<p dir="auto">./init_replit</p>
-<p dir="auto" style="padding-left: 30px;">for cmsimde_site (not needed): git submodule update --init --recursive</p>
-<p dir="auto" style="padding-left: 30px;">for cmsimde: pip install flask flask_cors bs4 lxml pelican markdown gevent</p>
-<p dir="auto">password generator: <a href="https://mde.tw/cmsite/content/Brython.html?src=https://gist.githubusercontent.com/mdecycu/b92b16621dd0246c352cf13d6463b333/raw/0bfa669750aba3abe48554509bbd43d65b6e5c82/hashlib_password_generator.py">https://mde.tw/cmsite/content/Brython.html?src=https://gist.githubusercontent.com/mdecycu/b92b16621dd0246c352cf13d6463b333/raw/0bfa669750aba3abe48554509bbd43d65b6e5c82/hashlib_password_generator.py</a> </p>
-<p dir="auto"></p>
-<p dir="auto">for IPv6 only Ubuntu:<br/><br/>.ssh 目錄中的 config, 將 SSH session 名稱設為 github.com:<br/><br/>Host github.com<br/>User git<br/>Hostname github.com<br/>ProxyCommand /usr/bin/ncat --proxy p4.cycu.org:3128 --proxy-type http %h %p<br/><br/>for Replit:<br/><br/>.ssh 目錄中的 config, 將 SSH session 名稱設為 github.com:<br/><br/>Host github.com<br/>User git<br/>Hostname github.co<br/>#since Replit works for IPv4, therefore no ProxyCommand setting needed<br/>#ProxyCommand /usr/bin/ncat --proxy p4.cycu.org:3128 --proxy-type http %h %p</p>
+    <div id="tipue_search_content">cmsimde << <a href='cmsimde.html'>Previous</a> <a href='Replit.html'>Next</a> >> Replit<br /><h1>Codespaces</h1>
+<p><span>由於 Github Codespaces 免費帳號目前每月</span><a href="https://docs.github.com/en/billing/managing-billing-for-github-codespaces/about-billing-for-github-codespaces">可以使用 120 core hours</a><span>, 因此使用者可以選擇在 Github 倉儲中編輯 markdown 目錄中的網誌 .md 文章後, 只在需要利用 pelican 轉檔或啟動編輯 config/content.htm 與轉靜態網頁內容時, 才啟用 Codespaces. 如此可以最佳化使用 Codespaces 的免費 core hours.</span></p>
+<p>利用 init_replit 指令安裝所需 Python 模組</p>
+<p><strong>啟動動態 指令</strong></p>
+<p>1. chmod u+x init_replit</p>
+<p>2. ./init_replit</p>
+<p>3. Python3 main.py</p>
+<p><strong>靜態 指令 </strong></p>
+<p>1. Python3 -m http.server</p>
+<p><strong>Push 指令</strong></p>
+<p>1. git status </p>
+<p>2. git add .     </p>
+<p>3. git commit -m " 你要推的內容 "   </p>
+<p>4. git push</p>
 <p></p>
-<p></p>
-<br />Codespaces << <a href='Codespaces.html'>Previous</a> <a href='Brython.html'>Next</a> >> Brython</div>
+<br />cmsimde << <a href='cmsimde.html'>Previous</a> <a href='Replit.html'>Next</a> >> Replit</div>
 
     <!-- footer -->
       <div class="container">
