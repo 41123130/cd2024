@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>協同產品設計實習</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-05-24T05:40:58+08:00</updated><entry><title>41123130-W10課程</title><link href="./41123130%20W13.html" rel="alternate"></link><published>2024-05-10T11:00:00+08:00</published><updated>2024-05-24T05:40:49+08:00</updated><author><name>41123130</name></author><id>tag:None,2024-05-10:./41123130 W13.html</id><summary type="html">&lt;p&gt;第十三週&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>協同產品設計實習</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-05-30T12:23:35+08:00</updated><entry><title>41123130-W10課程</title><link href="./41123130%20W13.html" rel="alternate"></link><published>2024-05-10T11:00:00+08:00</published><updated>2024-05-30T12:23:35+08:00</updated><author><name>41123130</name></author><id>tag:None,2024-05-10:./41123130 W13.html</id><summary type="html">&lt;p&gt;第十三週&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;第十三週&lt;/p&gt;
 
 
@@ -7,14 +7,14 @@
 &lt;ol&gt;
 &lt;li&gt;補做之前期中前未補的事項補齊&lt;/li&gt;
 &lt;li&gt;繪畫鋼球平衡台之組合件&lt;/li&gt;
-&lt;/ol&gt;</content><category term="w13"></category><category term="網誌編寫"></category></entry><entry><title>41123130-W10課程</title><link href="./41123130%20W14.html" rel="alternate"></link><published>2024-05-10T11:00:00+08:00</published><updated>2024-05-24T05:40:58+08:00</updated><author><name>41123130</name></author><id>tag:None,2024-05-10:./41123130 W14.html</id><summary type="html">&lt;p&gt;第十四週&lt;/p&gt;
+&lt;li&gt;新增群組靜態內容&lt;/li&gt;
+&lt;/ol&gt;</content><category term="w13"></category><category term="網誌編寫"></category></entry><entry><title>41123130-W10課程</title><link href="./41123130%20W14.html" rel="alternate"></link><published>2024-05-10T11:00:00+08:00</published><updated>2024-05-30T12:19:56+08:00</updated><author><name>41123130</name></author><id>tag:None,2024-05-10:./41123130 W14.html</id><summary type="html">&lt;p&gt;第十四週&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;第十四週&lt;/p&gt;
 
 
 &lt;h1&gt;41123130-W14&lt;/h1&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;/li&gt;
-&lt;/ol&gt;</content><category term="w14"></category><category term="網誌編寫"></category></entry><entry><title>41123130-W10課程</title><link href="./41123130%20W12.html" rel="alternate"></link><published>2024-05-03T11:00:00+08:00</published><updated>2024-05-16T13:32:47+08:00</updated><author><name>41123130</name></author><id>tag:None,2024-05-03:./41123130 W12.html</id><summary type="html">&lt;p&gt;第十二週&lt;/p&gt;
+&lt;p&gt;1.平台繪圖完成
+2.組合完成並轉檔&lt;/p&gt;</content><category term="w14"></category><category term="網誌編寫"></category></entry><entry><title>41123130-W10課程</title><link href="./41123130%20W12.html" rel="alternate"></link><published>2024-05-03T11:00:00+08:00</published><updated>2024-05-30T12:16:54+08:00</updated><author><name>41123130</name></author><id>tag:None,2024-05-03:./41123130 W12.html</id><summary type="html">&lt;p&gt;第十二週&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;第十二週&lt;/p&gt;
 
 
@@ -23,7 +23,7 @@
 &lt;li&gt;利用NXOpen程式分別執行建立block與挖孔，並將兩個程式合併為一個程式，可以直接完成建立一個 block 並在其特定面上挖孔&lt;/li&gt;
 &lt;li&gt;將分組倉儲(ag2)設為評分網站(2a-stud)子模組
 [git submodule add https://github.com/mdecd2024/2a-midag2.git g1]&lt;/li&gt;
-&lt;/ol&gt;</content><category term="w12"></category><category term="網誌編寫"></category></entry><entry><title>41123130-W10課程</title><link href="./41123130%20W11.html" rel="alternate"></link><published>2024-04-26T11:00:00+08:00</published><updated>2024-05-16T13:20:13+08:00</updated><author><name>41123130</name></author><id>tag:None,2024-04-26:./41123130 W11.html</id><summary type="html">&lt;p&gt;第十一週&lt;/p&gt;
+&lt;/ol&gt;</content><category term="w12"></category><category term="網誌編寫"></category></entry><entry><title>41123130-W10課程</title><link href="./41123130%20W11.html" rel="alternate"></link><published>2024-04-26T11:00:00+08:00</published><updated>2024-05-30T12:16:54+08:00</updated><author><name>41123130</name></author><id>tag:None,2024-04-26:./41123130 W11.html</id><summary type="html">&lt;p&gt;第十一週&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;第十一週&lt;/p&gt;
 
 
@@ -32,7 +32,7 @@
 &lt;li&gt;在小組倉儲更新自己的子模組&lt;/li&gt;
 &lt;li&gt;學習並練習使用建分支的方式去維護小組倉儲&lt;/li&gt;
 &lt;li&gt;用NX畫鋼球平衡零件圖&lt;/li&gt;
-&lt;/ol&gt;</content><category term="w11"></category><category term="網誌編寫"></category></entry><entry><title>41123130-W10課程</title><link href="./41123130%20W10.html" rel="alternate"></link><published>2024-04-19T11:00:00+08:00</published><updated>2024-05-16T13:20:08+08:00</updated><author><name>41123130</name></author><id>tag:None,2024-04-19:./41123130 W10.html</id><summary type="html">&lt;p&gt;第十週&lt;/p&gt;
+&lt;/ol&gt;</content><category term="w11"></category><category term="網誌編寫"></category></entry><entry><title>41123130-W10課程</title><link href="./41123130%20W10.html" rel="alternate"></link><published>2024-04-19T11:00:00+08:00</published><updated>2024-05-30T12:16:54+08:00</updated><author><name>41123130</name></author><id>tag:None,2024-04-19:./41123130 W10.html</id><summary type="html">&lt;p&gt;第十週&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;第十週&lt;/p&gt;
 
 
@@ -40,7 +40,7 @@
 &lt;ol&gt;
 &lt;li&gt;完成Latex翻譯並上傳至Downloads中&lt;/li&gt;
 &lt;li&gt;將W10任務放在&lt;a href="https://41123130.github.io/cd2024/content/W10.html"&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;</content><category term="w10"></category><category term="網誌編寫"></category></entry><entry><title>41123130-W9課程</title><link href="./41123130%20W9.html" rel="alternate"></link><published>2024-04-12T11:00:00+08:00</published><updated>2024-05-10T05:17:13+08:00</updated><author><name>41123130</name></author><id>tag:None,2024-04-12:./41123130 W9.html</id><summary type="html">&lt;p&gt;第九週&lt;/p&gt;
+&lt;/ol&gt;</content><category term="w10"></category><category term="網誌編寫"></category></entry><entry><title>41123130-W9課程</title><link href="./41123130%20W9.html" rel="alternate"></link><published>2024-04-12T11:00:00+08:00</published><updated>2024-05-30T12:16:54+08:00</updated><author><name>41123130</name></author><id>tag:None,2024-04-12:./41123130 W9.html</id><summary type="html">&lt;p&gt;第九週&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;第九週&lt;/p&gt;
 
 
@@ -48,12 +48,12 @@
 &lt;ol&gt;
 &lt;li&gt;重新整頓之前Blog之問題&lt;/li&gt;
 &lt;li&gt;整合群組子模組&lt;/li&gt;
-&lt;/ol&gt;</content><category term="w9"></category><category term="網誌編寫"></category></entry><entry><title>41123130-W8課程</title><link href="./41123130%20W8.html" rel="alternate"></link><published>2024-04-05T11:00:00+08:00</published><updated>2024-05-07T12:02:34+08:00</updated><author><name>41123130</name></author><id>tag:None,2024-04-05:./41123130 W8.html</id><summary type="html">&lt;p&gt;第八週&lt;/p&gt;
+&lt;/ol&gt;</content><category term="w9"></category><category term="網誌編寫"></category></entry><entry><title>41123130-W8課程</title><link href="./41123130%20W8.html" rel="alternate"></link><published>2024-04-05T11:00:00+08:00</published><updated>2024-05-30T12:16:54+08:00</updated><author><name>41123130</name></author><id>tag:None,2024-04-05:./41123130 W8.html</id><summary type="html">&lt;p&gt;第八週&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;第八週&lt;/p&gt;
 
 
 &lt;h1&gt;41123130-W8&lt;/h1&gt;
-&lt;p&gt;運用OBS嘗試加入部分教學成果總結(未成功)&lt;/p&gt;</content><category term="w8"></category><category term="網誌編寫"></category></entry><entry><title>41123130-W6課程</title><link href="./41123130%20W6.html" rel="alternate"></link><published>2024-03-29T11:00:00+08:00</published><updated>2024-05-07T12:02:11+08:00</updated><author><name>41123130</name></author><id>tag:None,2024-03-29:./41123130 W6.html</id><summary type="html">&lt;p&gt;第六週&lt;/p&gt;
+&lt;p&gt;運用OBS嘗試加入部分教學成果總結(未成功)&lt;/p&gt;</content><category term="w8"></category><category term="網誌編寫"></category></entry><entry><title>41123130-W6課程</title><link href="./41123130%20W6.html" rel="alternate"></link><published>2024-03-29T11:00:00+08:00</published><updated>2024-05-30T12:16:54+08:00</updated><author><name>41123130</name></author><id>tag:None,2024-03-29:./41123130 W6.html</id><summary type="html">&lt;p&gt;第六週&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;第六週&lt;/p&gt;
 
 
@@ -71,7 +71,7 @@
 9.git add .(加入更改) git commit -m " "(命名這次更改) git push(推到倉儲)
 10.git merge //合併branch 41123130 至 main
 11.在github確定沒衝突的合併後送出請求,並合併branch
-12.合併後的branch 只要沒有與main有衝突的合併應該可以一直用&lt;/p&gt;</content><category term="w6"></category><category term="網誌編寫"></category></entry><entry><title>41123130-W5課程</title><link href="./41123130%20W5.html" rel="alternate"></link><published>2024-03-22T11:00:00+08:00</published><updated>2024-05-07T12:04:34+08:00</updated><author><name>41123130</name></author><id>tag:None,2024-03-22:./41123130 W5.html</id><summary type="html">&lt;p&gt;第五週&lt;/p&gt;
+12.合併後的branch 只要沒有與main有衝突的合併應該可以一直用&lt;/p&gt;</content><category term="w6"></category><category term="網誌編寫"></category></entry><entry><title>41123130-W5課程</title><link href="./41123130%20W5.html" rel="alternate"></link><published>2024-03-22T11:00:00+08:00</published><updated>2024-05-30T12:16:54+08:00</updated><author><name>41123130</name></author><id>tag:None,2024-03-22:./41123130 W5.html</id><summary type="html">&lt;p&gt;第五週&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;第五週&lt;/p&gt;
 
 
@@ -81,19 +81,19 @@
 &lt;p&gt;3.上一部教學影片字幕&lt;/p&gt;
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/WpBjO-Pjr5w?si=8z-aQCzjtIiF1gy3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;
 
-&lt;p&gt;&lt;a href="&lt;a href="https://1drv.ms/t/c/0c784ce0af12d934/EQ7fGtx45HxBiJpdMZMJnkABtKQ5YcusSXGq3WgBcceKJg?e=K5pVot"&gt;http://229.cycu.org/latex_images_github.7z&lt;/a&gt;"&gt;逐字稿&lt;/a&gt;&lt;/p&gt;</content><category term="w5"></category><category term="網誌編寫"></category></entry><entry><title>41123130-W4課程</title><link href="./41123130%20W4.html" rel="alternate"></link><published>2024-03-15T11:00:00+08:00</published><updated>2024-05-07T12:01:55+08:00</updated><author><name>41123130</name></author><id>tag:None,2024-03-15:./41123130 W4.html</id><summary type="html">&lt;p&gt;第四週&lt;/p&gt;
+&lt;p&gt;&lt;a href="&lt;a href="https://1drv.ms/t/c/0c784ce0af12d934/EQ7fGtx45HxBiJpdMZMJnkABtKQ5YcusSXGq3WgBcceKJg?e=K5pVot"&gt;http://229.cycu.org/latex_images_github.7z&lt;/a&gt;"&gt;逐字稿&lt;/a&gt;&lt;/p&gt;</content><category term="w5"></category><category term="網誌編寫"></category></entry><entry><title>41123130-W4課程</title><link href="./41123130%20W4.html" rel="alternate"></link><published>2024-03-15T11:00:00+08:00</published><updated>2024-05-30T12:16:54+08:00</updated><author><name>41123130</name></author><id>tag:None,2024-03-15:./41123130 W4.html</id><summary type="html">&lt;p&gt;第四週&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;第四週&lt;/p&gt;
 
 
 &lt;h1&gt;41123130-W4&lt;/h1&gt;
 &lt;p&gt;1.cd2024_2a_w2_5 如何利用近端可攜環境與外部 IPv4 開啟動態網站的字幕&lt;/p&gt;
-&lt;p&gt;2.為教學影片上其影片逐字稿&lt;/p&gt;</content><category term="w4"></category><category term="網誌編寫"></category></entry><entry><title>41123130-W3課程</title><link href="./41123130%20W3.html" rel="alternate"></link><published>2024-03-08T11:00:00+08:00</published><updated>2024-05-07T12:01:50+08:00</updated><author><name>41123130</name></author><id>tag:None,2024-03-08:./41123130 W3.html</id><summary type="html">&lt;p&gt;第三週&lt;/p&gt;
+&lt;p&gt;2.為教學影片上其影片逐字稿&lt;/p&gt;</content><category term="w4"></category><category term="網誌編寫"></category></entry><entry><title>41123130-W3課程</title><link href="./41123130%20W3.html" rel="alternate"></link><published>2024-03-08T11:00:00+08:00</published><updated>2024-05-30T12:16:54+08:00</updated><author><name>41123130</name></author><id>tag:None,2024-03-08:./41123130 W3.html</id><summary type="html">&lt;p&gt;第三週&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;第三週&lt;/p&gt;
 
 
 &lt;h1&gt;41123130-W3&lt;/h1&gt;
 &lt;p&gt;1.建立小組群組倉儲(https://github.com/mdecd2024/2a-midag2)&lt;/p&gt;
-&lt;p&gt;2.建立Putty權限(ppk)&lt;/p&gt;</content><category term="w3"></category><category term="網誌編寫"></category></entry><entry><title>41123130-W2課程</title><link href="./41123130%20W2.html" rel="alternate"></link><published>2024-03-01T11:00:00+08:00</published><updated>2024-05-07T12:01:42+08:00</updated><author><name>41123130</name></author><id>tag:None,2024-03-01:./41123130 W2.html</id><summary type="html">&lt;p&gt;第二週&lt;/p&gt;
+&lt;p&gt;2.建立Putty權限(ppk)&lt;/p&gt;</content><category term="w3"></category><category term="網誌編寫"></category></entry><entry><title>41123130-W2課程</title><link href="./41123130%20W2.html" rel="alternate"></link><published>2024-03-01T11:00:00+08:00</published><updated>2024-05-30T12:16:54+08:00</updated><author><name>41123130</name></author><id>tag:None,2024-03-01:./41123130 W2.html</id><summary type="html">&lt;p&gt;第二週&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;第二週&lt;/p&gt;
 
 
@@ -101,7 +101,7 @@
 &lt;p&gt;1.創建自己的倉儲(cd2024) &lt;/p&gt;
 &lt;p&gt;2.創建自己的動靜態並修改內容&lt;/p&gt;
 &lt;p&gt;3.為了上傳 影片 檔案 照片等 學習了blog寫法
-(git add .&lt;em&gt; git commit -m ""&lt;/em&gt; git push)&lt;/p&gt;</content><category term="w2"></category><category term="網誌編寫"></category></entry><entry><title>41123130-W1課程</title><link href="./41123130%20W1.html" rel="alternate"></link><published>2024-02-23T11:00:00+08:00</published><updated>2024-05-07T12:01:08+08:00</updated><author><name>41123130</name></author><id>tag:None,2024-02-23:./41123130 W1.html</id><summary type="html">&lt;p&gt;第一週&lt;/p&gt;
+(git add .&lt;em&gt; git commit -m ""&lt;/em&gt; git push)&lt;/p&gt;</content><category term="w2"></category><category term="網誌編寫"></category></entry><entry><title>41123130-W1課程</title><link href="./41123130%20W1.html" rel="alternate"></link><published>2024-02-23T11:00:00+08:00</published><updated>2024-05-30T12:16:54+08:00</updated><author><name>41123130</name></author><id>tag:None,2024-02-23:./41123130 W1.html</id><summary type="html">&lt;p&gt;第一週&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;第一週&lt;/p&gt;
 
 
